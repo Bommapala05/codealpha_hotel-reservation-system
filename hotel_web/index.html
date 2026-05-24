@@ -1328,7 +1328,7 @@
     <div class="toast-container" id="toast-container"></div>
 
     <script>
-        const host = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "http://localhost:8080" : "https://thecovehotels-api.onrender.com";
+        const host = window.location.origin;
         let activeRoom = null;
         let searchInDate = "";
         let searchOutDate = "";
