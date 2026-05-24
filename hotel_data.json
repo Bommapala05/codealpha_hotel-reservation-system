@@ -1,0 +1,18 @@
+{
+  "rooms": [
+    {"roomNumber":"101","category":"Standard","price":1500.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV"]},
+    {"roomNumber":"102","category":"Standard","price":1500.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV"]},
+    {"roomNumber":"103","category":"Standard","price":1500.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV"]},
+    {"roomNumber":"201","category":"Deluxe","price":3000.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV","Mini Fridge","Balcony"]},
+    {"roomNumber":"202","category":"Deluxe","price":3000.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV","Mini Fridge","Balcony"]},
+    {"roomNumber":"203","category":"Deluxe","price":3000.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV","Mini Fridge","Balcony"]},
+    {"roomNumber":"301","category":"Suite","price":6000.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV","Mini Fridge","Private Jacuzzi","Ocean View","Complimentary Drinks"]},
+    {"roomNumber":"302","category":"Suite","price":6000.0,"isAvailable":true,"amenities":["Free Wi-Fi","Air Conditioning","Flat-screen TV","Mini Fridge","Private Jacuzzi","Ocean View","Complimentary Drinks"]}
+  ],
+  "reservations": [
+  ],
+  "users": [
+    {"username":"manideep","password":"Bommapala@05","email":"manideepbommapala@gmail.com"},
+    {"username":"manideep05","password":"142536","email":"manideep@gmail.com"}
+  ]
+}
