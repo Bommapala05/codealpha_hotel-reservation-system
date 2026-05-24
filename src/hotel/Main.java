@@ -6,14 +6,16 @@ import hotel.service.HotelServer;
 public class Main {
     public static void main(String[] args) {
         try {
+            String portEnv = System.getenv("PORT");
+            int port = (portEnv != null && !portEnv.isEmpty()) ? Integer.parseInt(portEnv) : 8080;
             HotelSystem system = new HotelSystem("hotel_data.json");
-            HotelServer server = new HotelServer(8080, system);
+            HotelServer server = new HotelServer(port, system);
             server.start();
 
             System.out.println("===============================================");
             System.out.println("  HOTEL RESERVATION SYSTEM ACTIVE");
-            System.out.println("  Server Port: 8080");
-            System.out.println("  Website URL: http://localhost:8080");
+            System.out.println("  Server Port: " + port);
+            System.out.println("  Website URL: http://localhost:" + port);
             System.out.println("  Press Ctrl+C in terminal to stop the server.");
             System.out.println("===============================================");
 
